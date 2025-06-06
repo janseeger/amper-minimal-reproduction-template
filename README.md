@@ -1,17 +1,17 @@
-# minimal-reproduction-template
+# #discussion/36278
 
 First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
 
-Then replace the current `h1` with the Renovate Issue/Discussion number.
-
 ## Current behavior
 
-Explain the current behavior here.
+Renovate does nothing even though the kotlinx-datetime lib used is outdated. Is 0.6.1 when the latest version (as time of writing) would be the 0.6.2.
+
+See the renovate logs [here](https://developer.mend.io/github/janseeger/amper-minimal-reproduction-template/-/job/b092dbe2-a7a5-4fa1-8f66-e0b6108c73e5)
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate finds and reports the outdated library.
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+[Add support for Amper standalone projects #36278](https://github.com/renovatebot/renovate/discussions/36278)
